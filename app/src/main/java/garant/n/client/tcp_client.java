@@ -11,7 +11,7 @@ public class tcp_client {
 
     private String serverMessage;
     public  static String SERVERIP = "10.0.2.2"; //your computer IP address
-    public  static  int SERVERPORT = 5959;
+    public  static  int SERVERPORT = 9091;
     private OnMessageReceived mMessageListener = null;
     private boolean mRun = false;
 
